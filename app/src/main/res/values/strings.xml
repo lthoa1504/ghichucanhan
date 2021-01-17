@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">personal_note</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="welcomeApp">Welcome to Note</string>
+    <string name="Change">Change your password</string>
+    <string name="CurrentPassword">Enter current password</string>
+    <string name="NewPassword">Enter new password</string>
+    <string name="Confirm">Enter again password</string>
+    <string name="btnChange">Change</string>
+    <string name="btnHome">Home</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="EnterEmail">Enter your email</string>
+    <string name="EnterPassword">Enter your password (more than 8 words)</string>
+    <string name="ConfirmPassword">Confirm your number</string>
+    <string name="SignIn">Sign In</string>
+    <string name="Exit">Exit</string>
+    <string name="todo" translatable="false" tools:ignore="DuplicateDefinition">TODO</string>
+    <string name="edit_profile" translatable="false">Edit Profile</string>
+    <string name="enter_your_fist_name" translatable="false">Enter your fist name</string>
+    <string name="TODO" translatable="false">TODO</string>
+    <string name="thong_tin_ca_nhan" translatable="false">Edit Profile</string>
+    <string name="name" translatable="false">Name</string>
+    <string name="th_m_ghi_chu" translatable="false">Add Note</string>
+</resources>

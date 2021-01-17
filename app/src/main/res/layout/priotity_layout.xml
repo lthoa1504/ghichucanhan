@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PriorityActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: "/>
+        <TextView
+            android:id="@+id/tvNamePriority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Priority "/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Date: "/>
+        <TextView
+            android:id="@+id/tvDataPriotity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2021-1-1 "/>
+    </LinearLayout>
+
+</LinearLayout>

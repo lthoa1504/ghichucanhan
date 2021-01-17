@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ghichucanhan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Personal_note">
+        <activity android:name="com.example.ghichucanhan.SplashScreenActivity">
+
+        </activity>
+        <activity android:name="com.example.ghichucanhan.LogInActivity" />
+        <activity android:name="com.example.ghichucanhan.SignUpActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="com.example.ghichucanhan.NavigationActivity"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/Theme.Personal_note.NoActionBar" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name="com.example.ghichucanhan.CategoryActivity" />
+        <activity android:name="com.example.ghichucanhan.NoteActivity" />
+        <activity android:name="com.example.ghichucanhan.StatusActivity" />
+        <activity android:name="com.example.ghichucanhan.PriorityActivity" />
+        <activity android:name="com.example.ghichucanhan.MainActivity" />
+    </application>
+
+</manifest>

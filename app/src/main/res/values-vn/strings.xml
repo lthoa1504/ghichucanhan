@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">personal_note</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="welcomeApp">Chào mừng tới Note</string>
+    <string name="Change">Đổi mật khẩu</string>
+    <string name="CurrentPassword">Mật khẩu hiện tại</string>
+    <string name="NewPassword">Mật khẩu mới</string>
+    <string name="Confirm">Nhập lại mật khẩu mới</string>
+    <string name="btnChange">Thay Đổi</string>
+    <string name="btnHome">Trở Về</string>
+    <string name="SignUp">Đăng Ký</string>
+    <string name="EnterEmail">Nhập email của bạn</string>
+    <string name="EnterPassword">Nhập mật khẩu của bạn (trên 8 ký tự)</string>
+    <string name="ConfirmPassword">Xác nhận mật khẩu</string>
+    <string name="SignIn">Đăng Nhập</string>
+    <string name="Exit">Trở Về</string>
+
+</resources>

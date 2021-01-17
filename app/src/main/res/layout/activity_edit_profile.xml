@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.EditProfile"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/editprofile"
+        android:text="@string/thong_tin_ca_nhan"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/edittextfistname"
+        android:hint="@string/enter_your_fist_name"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/edittext_background"
+        android:paddingLeft="20dp"
+
+        />
+    <EditText
+        android:id="@+id/edittextlastname"
+        android:hint="Enter your last name"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="45dp"
+        android:background="@drawable/edittext_background"
+        android:paddingLeft="20dp"
+        />
+    <EditText
+        android:id="@+id/edittextemail"
+        android:hint="Confirm your email"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="45dp"
+        android:background="@drawable/edittext_background"
+        android:paddingLeft="20dp"
+        />
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <android.widget.Button
+            android:text="Change"
+            android:id="@+id/btnChange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/button_background"
+            />
+
+        <android.widget.Button
+            android:id="@+id/btnHome"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="Home" />
+    </LinearLayout>
+
+</LinearLayout>

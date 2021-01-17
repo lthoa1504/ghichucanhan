@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".NoteActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: "/>
+        <TextView
+            android:id="@+id/tvNameNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note "/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category: "/>
+
+        <TextView
+            android:id="@+id/tvNoteCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="khang" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: "/>
+        <TextView
+            android:id="@+id/tvNoteStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ok "/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Priority: "/>
+        <TextView
+            android:id="@+id/tvNotePriority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Slow "/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plan date: "/>
+        <TextView
+            android:id="@+id/tvNotePlanDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20-11-2021 "/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Date: "/>
+        <TextView
+            android:id="@+id/tvDateNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2021-1-1 "/>
+    </LinearLayout>
+
+</LinearLayout>

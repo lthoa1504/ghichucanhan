@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+
+    <fragment
+
+        android:id="@+id/nav_home"
+        android:name="com.example.ghichucanhan.HomeActivity"
+        android:label="@string/menu_home"
+        tools:layout="@layout/activity_home" />
+
+    <fragment
+        android:id="@+id/nav_category"
+        android:name="com.example.ghichucanhan.fragment.AddCategoryFragment"
+        android:label="Danh mục"
+        tools:layout="@layout/fragment_add_category" />
+    <fragment
+        android:id="@+id/nav_priority"
+        android:name="com.example.ghichucanhan.fragment.AddPriorityFragment"
+        android:label="Mức độ ưu tiên"
+        tools:layout="@layout/fragment_add_priority" />
+    <fragment
+        android:id="@+id/nav_status"
+        android:name="com.example.ghichucanhan.fragment.AddStatusFragment"
+        android:label="Trạng thái"
+        tools:layout="@layout/fragment_add_status" />
+    <fragment
+        android:id="@+id/nav_note"
+        android:name="com.example.ghichucanhan.fragment.AddNoteFragment"
+        android:label="Ghi chú"
+        tools:layout="@layout/fragment_add_note" />
+    <fragment
+        android:id="@+id/nav_editProfile"
+        android:name="com.example.ghichucanhan.fragment.EditProfile"
+        android:label="Thay đổi thông tin"
+        tools:layout="@layout/activity_edit_profile" />
+    <fragment
+        android:id="@+id/nav_changePass"
+        android:name="com.example.ghichucanhan.fragment.ChangePassword"
+        android:label="Đổi mật khẩu"
+        tools:layout="@layout/activity_changepassword" />
+</navigation>
